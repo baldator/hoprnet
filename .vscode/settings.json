@@ -1,6 +1,6 @@
 {
   "solidity.compileUsingRemoteVersion": "v0.7.5+commit.eb77ed08",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "vscode-neovim.neovimExecutablePaths.linux": "/usb/bin/neovim",
+  "vscode-neovim.neovimExecutablePaths.linux": "/usb/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.linux": "/workspace/hoprnet/.vscode/init.vim"
 }
