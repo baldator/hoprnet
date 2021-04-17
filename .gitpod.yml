@@ -1,7 +1,11 @@
 image:
   file: .gitpod.dockerfile
 tasks:
-  - init: yarn && yarn build
+  - init: yarn && yarn build && tmux
 
 ports:
   - port: 3000-9095
+
+vscode:
+  extensions:
+    - asvetliakov.vscode-neovim@0.0.78:c8bb3243ef616786dbe82c01c8975ee1
