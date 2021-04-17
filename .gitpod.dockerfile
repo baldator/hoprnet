@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-RUN  sudo add-apt-repository ppa:neovim-ppa/unstable \
+RUN  sudo add-apt-repository ppa:neovim-ppa/stable \
     &&  sudo apt-get update  \
     && sudo apt-get install -y neovim \
     && sudo apt-get install -y  tmux  && sudo rm -rf /var/lib/apt/lists/* \
