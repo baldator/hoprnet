@@ -1,6 +1,7 @@
 FROM gitpod/workspace-full
 
 RUN sudo apt-get update  \
+    && apt-get install fuse \
     && curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage \
     && chmod u+x nvim.appimage \
     && ./nvim.appimage \
